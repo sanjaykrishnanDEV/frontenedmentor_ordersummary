@@ -1,0 +1,84 @@
+body {
+  background-color: hsl(225, 100%, 94%);
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+.container {
+  height: 560px;
+  width: 300px;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 1px 0px 40px black;
+}
+
+img {
+  border-radius: 20px 20px 1px 1px;
+  width: 300px;
+  height: 200px;
+}
+.summary {
+  text-align: center;
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+  font-size: 1rem;
+}
+#forcolour {
+  display: inline;
+}
+p {
+  color: hsl(224, 23%, 55%);
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 0px;
+}
+
+#music {
+  height: 60px;
+  width: 60px;
+  float: left;
+  margin-left: 8px;
+  display: inline;
+  margin-right: 10px;
+}
+.payment {
+  height: 60px;
+  width: 280px;
+
+  border-radius: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+}
+#one {
+  margin-top: 4px;
+  margin-left: 10px;
+}
+#two {
+  margin-top: 20px;
+  margin-left: 45px;
+  color: blue;
+}
+#two:hover {
+  cursor: pointer;
+}
+.buttons {
+  margin-top: 25px;
+  height: 40px;
+  width: 280px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  border-radius: 15px;
+}
+#cancel {
+  text-align: center;
+  margin-top: 20px;
+  font-size: medium;
+}
+.buttons:hover {
+  background-color: hsl(223, 47%, 23%);
+  cursor: pointer;
+}
